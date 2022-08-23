@@ -1,14 +1,14 @@
-// console.log("i am alive");
+$("#random_button").click(function () {
+    $.get("https://api.jikan.moe/v4/random/anime", function (data, status) {
+        const trailer = data.trailer;
+        $("div.video_holder")
+            .html(`<video controls> < source src = "${trailer.url}" 
+            type = "video/mp4" > </video > `);
+        const title = data.title;
+        $("div.title_holder")
+            .text(title)
 
-// Create a request variable and assign a new XMLHttpRequest object to it.
-var request = new XMLHttpRequest()
+    });
+});
 
-// Open a new connection, using the GET request on the URL endpoint
-request.open('GET', 'https://raw.githubusercontent.com/jikan-me/jikan-rest/master/storage/api-docs/api-docs.json', true)
-
-request.onload = function () {
-  // Begin accessing JSON data here
-}
-
-// Send request
-request.send()
+// my data isnt allowing me to access the trailer which 
