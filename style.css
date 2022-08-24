@@ -5,18 +5,36 @@
 .title_holder {
     color: #111;
     font-family: 'Helvetica Neue', sans-serif;
-    font-size: 275px;
+    font-size: 55px;
     font-weight: bold;
+    letter-spacing: -1px;
+    line-height: 1;
+    text-align: justify;
+}
+
+.synopsis_holder {
+    color: #111;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 25px;
+    font-weight: 1;
     letter-spacing: -1px;
     line-height: 1;
     text-align: center;
 }
 
-/* .class {
-    background-image: image-url("https://free4kwallpapers.com/uploads/originals/2022/03/28/anime-landscape-for-desktop-scenery-clouds-stars-buildings-wallpaper.jpg")
-    min-height:100%;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+.rating_holder {
+    color: #111;
+}
+
+body {
+    /* background-image: url("https://free4kwallpapers.com/uploads/originals/2022/03/28/anime-landscape-for-desktop-scenery-clouds-stars-buildings-wallpaper.jpg"); */
     background-size: cover;
-    -moz-background-size: cover;
-} */
+    background-repeat: no-repeat;
+    background: rgb(34, 193, 195);
+    background: linear-gradient(0deg, rgba(34, 193, 195, 1) 0%, rgba(19, 69, 129, 1) 100%);
+}
+
+img {
+    display: block;
+    max-width: 150%;
+}
