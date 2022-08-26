@@ -1,6 +1,6 @@
-.video_holder {
+/* .video_holder {
     margin: auto;
-}
+} */
 
 .nav {
     margin: auto;
@@ -90,7 +90,7 @@ body {
     scrollbar-color: #c356e1 #6C757D;
 }
 
-/* Chrome, Edge, and Safari */
+
 *::-webkit-scrollbar {
     width: 13px;
 }

@@ -23,7 +23,7 @@ Using the Jikan API to pull a random anime from the myanimelist.com database. Al
 
 ### Getting Started
 
-[Click here](hydedall.github.io)
+[Click here](https://precious-strudel-06ba1e.netlify.app/)
 
 ## Authors
 
