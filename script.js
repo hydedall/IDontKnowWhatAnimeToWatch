@@ -32,8 +32,8 @@ $("#random_button").click(function () {
             $('div.year_holder')
                 .text(year)
         } else {
-            $('#score_title').hide();
-            $('div.score_holder')
+            $('#year_title').hide();
+            $('div.year_holder')
                 .text('')
         }
 
