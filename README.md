@@ -14,6 +14,8 @@ Using the Jikan API to pull a random anime from the myanimelist.com database. Al
 * jQuery
 * Google Fonts
 * Jikan API
+* Bootstrap
+* Ajax
 
 ### Screenshots
 
