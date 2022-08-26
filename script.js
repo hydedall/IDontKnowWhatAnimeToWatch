@@ -23,18 +23,22 @@ $("#random_button").click(function () {
         if (score != undefined) {
             $('#score_title').show();
             $('div.score_holder')
-            .text(score)
+                .text(score)
         } else {
             $('#score_title').hide();
             $('div.score_holder')
-            .text('')
+                .text('')
         }
+        const year = data.data.year;
+        $('div.year_holder')
+            .text(year)
+
         image = data.data.images.jpg.large_image_url;
-        if(rating != 'Rx - Hentai' || rating != 'R+ - Mild Nudity' ){
+        if (rating != 'Rx - Hentai' || rating != 'R+ - Mild Nudity') {
             $('#image_holder').attr("src", image)
         } else {
             $('#image_holder').attr("src", "https://pbs.twimg.com/profile_images/1190380284295950339/Py6XnxvH_400x400.jpg")
         }
-    
+
     });
 });

@@ -40,6 +40,11 @@
     padding-top: 5%;
 }
 
+.year_holder {
+    color: #111;
+    font-family: 'Roboto', sans-serif;
+}
+
 .synopsis_holder {
     color: #111;
     font-family: 'Roboto', sans-serif;
