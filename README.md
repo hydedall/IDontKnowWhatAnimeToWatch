@@ -14,8 +14,6 @@ Using the Jikan API to pull a random anime from the myanimelist.com database. Al
 * jQuery
 * Google Fonts
 * Jikan API
-* Bootstrap
-* Ajax
 
 ### Screenshots
 
@@ -26,6 +24,14 @@ Using the Jikan API to pull a random anime from the myanimelist.com database. Al
 ### Getting Started
 
 [Click here](https://precious-strudel-06ba1e.netlify.app/)
+
+
+## Future Enhancements
+
+* Make the CSS look better
+* Add a random by genre option
+* Add a username search to bring up user's top anime
+* Figure out a way for trailers to populate on screen
 
 ## Authors
 
